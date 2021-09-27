@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class NPCMethod : MonoBehaviour
 {/// <summary>
- /// 宜修 Homework
  /// NPC 方法定義
  /// </summary>
     //對話
-    private void Dialog()
+    
+    private void Dialog(string dialogue)
     {
         
     }
@@ -18,7 +18,7 @@ public class NPCMethod : MonoBehaviour
         return true ;
     }
     //購買道具
-    public int ItemPurchase( int price = 100 )
+    public int BuyProp( int price = 100 )
     {
         return 0;
     }
@@ -38,8 +38,5 @@ public class NPCMethod : MonoBehaviour
         return false ;
     }
 
-    private void Start()
-    {
-        
-    }
+    
 }
